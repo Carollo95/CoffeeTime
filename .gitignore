@@ -1,0 +1,44 @@
+HELP.md
+target/
+!code/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### OpenApi ###
+.openapi-generator/*
+.openapi-generator-ignore
+code/.openapi-generator/*
+code/.openapi-generator-ignore
+code/wsc-MoneyTracker-clients/.openapi-generator/*
+code/wsc-MoneyTracker-clients/.openapi-generator-ignore
+
+## Flatten poms##
+.flattened-pom.xml
